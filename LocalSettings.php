@@ -68,7 +68,7 @@ $wgDBpassword = $url["pass"];
 
 
 # MySQL specific settings
-$wgDBprefix = "";
+$wgDBprefix = "mw_";
 
 # MySQL table options to use during installation or update
 $wgDBTableOptions = "ENGINE=InnoDB, DEFAULT CHARSET=binary";
